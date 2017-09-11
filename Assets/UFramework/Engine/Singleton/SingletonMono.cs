@@ -17,7 +17,7 @@ namespace UFramework.Engine.Singleton
         {
             if (!m_IsApplicationQuit)
             {
-                T instance = GameObject.FindObjectOfType(typeof(T)) as T;
+                T instance = FindObjectOfType(typeof(T)) as T;
                 if (instance == null)
                 {
                     System.Reflection.MemberInfo info = typeof(T);
@@ -36,7 +36,7 @@ namespace UFramework.Engine.Singleton
                     if (instance == null)
                     {
                         GameObject obj = new GameObject("Singleton[" + typeof(T).Name + "]");
-                        UnityEngine.Object.DontDestroyOnLoad(obj);
+                        DontDestroyOnLoad(obj);
                         instance = obj.AddComponent<T>();
                     }
 
@@ -58,7 +58,7 @@ namespace UFramework.Engine.Singleton
                 obj = new GameObject("Singleton[" + typeof(T).Name+ "]");
                 if (dontDestroy)
                 {
-                    UnityEngine.Object.DontDestroyOnLoad(obj);
+                    DontDestroyOnLoad(obj);
                 }
             }
 

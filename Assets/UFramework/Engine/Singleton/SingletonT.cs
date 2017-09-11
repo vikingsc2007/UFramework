@@ -5,7 +5,7 @@
         protected static T		s_Instance;
         protected static object s_lock = new object();
 
-        public static T Ins
+        public static T Inst
         {
             get
             {

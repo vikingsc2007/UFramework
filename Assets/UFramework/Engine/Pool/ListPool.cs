@@ -26,14 +26,14 @@ namespace UFramework.Engine.Pool
             {
                 return;
             }
-            
+
             t.Clear();
-            
+
             if (m_Cached == null)
             {
                 m_Cached = new Stack<List<T>>();
             }
-            
+
             m_Cached.Push(t);
         }
     }

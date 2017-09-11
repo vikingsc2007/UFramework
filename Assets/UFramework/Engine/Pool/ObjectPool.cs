@@ -7,26 +7,19 @@ namespace UFramework.Engine.Pool
     //主动提供缓存管理的类型
     public interface ICacheType
     {
-        void Recycle2Cache();
+        void Recycle();
     }
 
     public interface ICacheAble
     {
         void OnCacheReset();
 
-        bool cacheFlag
-        {
-            get;
-            set;
-        }
+        bool CacheFlag{get;set;}
     }
 
     public interface CountObserverAble
     {
-        int currentCount
-        {
-            get;
-        }
+        int CurrentCount{get;}
     }
 
     public class ObjectPool<T> : SingletonT<ObjectPool<T>>, CountObserverAble where T : ICacheAble, new()
@@ -44,16 +37,16 @@ namespace UFramework.Engine.Pool
 
             m_MaxCount = maxCount;
 
-            if (currentCount < initCount)
+            if (CurrentCount < initCount)
             {
-                for (int i = currentCount; i < initCount; ++i)
+                for (int i = CurrentCount; i < initCount; ++i)
                 {
                     Recycle(new T());
                 }
             }
         }
 
-        public int currentCount
+        public int CurrentCount
         {
             get
             {
@@ -66,13 +59,13 @@ namespace UFramework.Engine.Pool
             }
         }
 
-        public int maxCreateCount
+        public int MaxCreateCount
         {
             get { return m_MaxCreateCount; }
             set { m_MaxCreateCount = value; }
         }
 
-        public int maxCacheCount
+        public int MaxCacheCount
         {
             get { return m_MaxCount; }
             set
@@ -117,20 +110,20 @@ namespace UFramework.Engine.Pool
                 result = m_CacheStack.Pop();
             }
 
-            result.cacheFlag = false;
+            result.CacheFlag = false;
             return result;
         }
 
         public bool Recycle(T t)
         {
-            if (t == null || t.cacheFlag)
+            if (t == null || t.CacheFlag)
             {
                 return false;
             }
 
             if (m_CacheStack == null)
             {
-                m_CacheStack = new System.Collections.Generic.Stack<T>();
+                m_CacheStack = new Stack<T>();
             }
             else if (m_MaxCount > 0)
             {
@@ -141,7 +134,7 @@ namespace UFramework.Engine.Pool
                 }
             }
 
-            t.cacheFlag = true;
+            t.CacheFlag = true;
             t.OnCacheReset();
             m_CacheStack.Push(t);
 

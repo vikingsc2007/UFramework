@@ -11,7 +11,7 @@
         private static object   s_lock = new object();
 
 
-        public static T S
+        public static T Inst
         {
             get
             {
