@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="907ed1e4-4405-4b9c-aa37-c94d5ae18db3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPool.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPool.cs.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPoolMgr.cs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPool.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPool.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolGroup.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolGroup.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolMgr.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolMgr.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/DefaultPoolStrategy.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/DefaultPoolStrategy.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/IGameObjectPoolStrategy.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/IGameObjectPoolStrategy.cs.meta" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.UFramework/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.UFramework/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ListPool.cs" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ListPool.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ObjectPool.cs" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ObjectPool.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,32 +15,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ObjectPool.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ObjectPool.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ObjectPool.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="-598">
+              <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
               <folding>
-                <marker date="1505120439000" expanded="false" signature="6:181" ph="..." />
-                <marker date="1505120439000" expanded="true" signature="221:3187" ph="{...}" />
-                <marker date="1505120439000" expanded="true" signature="316:3185" ph="{...}" />
-                <marker date="1505120439000" expanded="true" signature="497:620" ph="{...}" />
-                <marker date="1505120439000" expanded="true" signature="523:610" ph="{...}" />
-                <marker date="1505120439000" expanded="true" signature="767:925" ph="/// 初始化对象池 ... " />
-                <marker date="1505120439000" expanded="true" signature="984:1299" ph="{...}" />
-                <marker date="1505120439000" expanded="true" signature="1132:1289" ph="{...}" />
-                <marker date="1505120439000" expanded="true" signature="1204:1275" ph="{...}" />
-                <marker date="1505120439000" expanded="true" signature="1594:1947" ph="{...}" />
-                <marker date="1505120439000" expanded="true" signature="1655:1937" ph="{...}" />
-                <marker date="1505120439000" expanded="true" signature="1739:1923" ph="{...}" />
-                <marker date="1505120439000" expanded="true" signature="1822:1905" ph="{...}" />
-                <marker date="1505120439000" expanded="true" signature="2112:2205" ph="/// 从池中获取对象没有则新建 ... " />
-                <marker date="1505120439000" expanded="true" signature="2229:2594" ph="{...}" />
-                <marker date="1505120439000" expanded="true" signature="2314:2409" ph="{...}" />
-                <marker date="1505120439000" expanded="true" signature="2426:2525" ph="{...}" />
-                <marker date="1505120439000" expanded="true" signature="2621:2763" ph="/// 丢弃一个对象进池中，池满则不进 ... " />
-                <marker date="1505120439000" expanded="true" signature="2796:3161" ph="{...}" />
-                <marker date="1505120439000" expanded="true" signature="2998:3098" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="6:128" ph="..." />
+                <marker date="1505122588000" expanded="true" signature="168:3134" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="263:3132" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="444:567" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="470:557" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="714:872" ph="/// 初始化对象池 ... " />
+                <marker date="1505122588000" expanded="true" signature="931:1246" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="1079:1236" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="1151:1222" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="1541:1894" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="1602:1884" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="1686:1870" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="1769:1852" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="2059:2152" ph="/// 从池中获取对象没有则新建 ... " />
+                <marker date="1505122588000" expanded="true" signature="2176:2541" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="2261:2356" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="2373:2472" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="2568:2710" ph="/// 丢弃一个对象进池中，池满则不进 ... " />
+                <marker date="1505122588000" expanded="true" signature="2743:3108" ph="{...}" />
+                <marker date="1505122588000" expanded="true" signature="2945:3045" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -102,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameObjectPool.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameObjectPool.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPool.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="101" column="8" lean-forward="true" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+            <state relative-caret-position="738">
+              <caret line="140" column="13" lean-forward="false" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
               <folding>
                 <marker date="1505122168000" expanded="false" signature="6:126" ph="..." />
                 <marker date="1505122168000" expanded="true" signature="166:4716" ph="{...}" />
@@ -260,12 +244,12 @@
         <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/PoolItemAdapter/PoolItemAdapter.cs" />
         <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/PoolItemCreatStrategys/ObjectPoolItemCreatStrategy.cs" />
         <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPoolItemCreatStrategy.cs" />
-        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ObjectPool.cs" />
         <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPool.cs" />
         <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ListPool.cs" />
         <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPoolManager.cs" />
         <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPool.cs" />
         <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPoolMgr.cs" />
+        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ObjectPool.cs" />
       </list>
     </option>
   </component>
@@ -484,7 +468,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505096618698</updated>
-      <workItem from="1505096623819" duration="19901000" />
+      <workItem from="1505096623819" duration="19995000" />
     </task>
     <task id="LOCAL-00001" summary="单例工具类&#10;对象池工具类&#10;引用计数工具类">
       <created>1505099028767</created>
@@ -507,11 +491,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505117209938</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="GameObject对象池&#10;GameObject对象池组&#10;GameObject对象池组管理器&#10;调试日志工具">
+      <created>1505122509256</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1505122509256</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19901000" />
+    <option name="totallyTimeSpent" value="19995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1030,35 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ObjectPool.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <marker date="1505120439000" expanded="false" signature="6:181" ph="..." />
-            <marker date="1505120439000" expanded="true" signature="221:3187" ph="{...}" />
-            <marker date="1505120439000" expanded="true" signature="316:3185" ph="{...}" />
-            <marker date="1505120439000" expanded="true" signature="497:620" ph="{...}" />
-            <marker date="1505120439000" expanded="true" signature="523:610" ph="{...}" />
-            <marker date="1505120439000" expanded="true" signature="767:925" ph="/// 初始化对象池 ... " />
-            <marker date="1505120439000" expanded="true" signature="984:1299" ph="{...}" />
-            <marker date="1505120439000" expanded="true" signature="1132:1289" ph="{...}" />
-            <marker date="1505120439000" expanded="true" signature="1204:1275" ph="{...}" />
-            <marker date="1505120439000" expanded="true" signature="1594:1947" ph="{...}" />
-            <marker date="1505120439000" expanded="true" signature="1655:1937" ph="{...}" />
-            <marker date="1505120439000" expanded="true" signature="1739:1923" ph="{...}" />
-            <marker date="1505120439000" expanded="true" signature="1822:1905" ph="{...}" />
-            <marker date="1505120439000" expanded="true" signature="2112:2205" ph="/// 从池中获取对象没有则新建 ... " />
-            <marker date="1505120439000" expanded="true" signature="2229:2594" ph="{...}" />
-            <marker date="1505120439000" expanded="true" signature="2314:2409" ph="{...}" />
-            <marker date="1505120439000" expanded="true" signature="2426:2525" ph="{...}" />
-            <marker date="1505120439000" expanded="true" signature="2621:2763" ph="/// 丢弃一个对象进池中，池满则不进 ... " />
-            <marker date="1505120439000" expanded="true" signature="2796:3161" ph="{...}" />
-            <marker date="1505120439000" expanded="true" signature="2998:3098" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ListPool.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1192,8 +1154,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPool.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="101" column="8" lean-forward="true" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+        <state relative-caret-position="738">
+          <caret line="140" column="13" lean-forward="false" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
           <folding>
             <marker date="1505122168000" expanded="false" signature="6:126" ph="..." />
             <marker date="1505122168000" expanded="true" signature="166:4716" ph="{...}" />
@@ -1223,6 +1185,35 @@
             <marker date="1505122168000" expanded="true" signature="4252:4413" ph="{...}" />
             <marker date="1505122168000" expanded="true" signature="4308:4399" ph="{...}" />
             <marker date="1505122168000" expanded="true" signature="4472:4693" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ObjectPool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding>
+            <marker date="1505122588000" expanded="true" signature="6:128" ph="..." />
+            <marker date="1505122588000" expanded="true" signature="168:3134" ph="{...}" />
+            <marker date="1505122588000" expanded="true" signature="263:3132" ph="{...}" />
+            <marker date="1505122588000" expanded="true" signature="444:567" ph="{...}" />
+            <marker date="1505122588000" expanded="true" signature="470:557" ph="{...}" />
+            <marker date="1505122588000" expanded="true" signature="714:872" ph="/// 初始化对象池 ... " />
+            <marker date="1505122588000" expanded="true" signature="931:1246" ph="{...}" />
+            <marker date="1505122588000" expanded="true" signature="1079:1236" ph="{...}" />
+            <marker date="1505122588000" expanded="true" signature="1151:1222" ph="{...}" />
+            <marker date="1505122588000" expanded="true" signature="1541:1894" ph="{...}" />
+            <marker date="1505122588000" expanded="true" signature="1602:1884" ph="{...}" />
+            <marker date="1505122588000" expanded="true" signature="1686:1870" ph="{...}" />
+            <marker date="1505122588000" expanded="true" signature="1769:1852" ph="{...}" />
+            <marker date="1505122588000" expanded="true" signature="2059:2152" ph="/// 从池中获取对象没有则新建 ... " />
+            <marker date="1505122588000" expanded="true" signature="2176:2541" ph="{...}" />
+            <marker date="1505122588000" expanded="true" signature="2261:2356" ph="{...}" />
+            <marker date="1505122588000" expanded="true" signature="2373:2472" ph="{...}" />
+            <marker date="1505122588000" expanded="true" signature="2568:2710" ph="/// 丢弃一个对象进池中，池满则不进 ... " />
+            <marker date="1505122588000" expanded="true" signature="2743:3108" ph="{...}" />
+            <marker date="1505122588000" expanded="true" signature="2945:3045" ph="{...}" />
           </folding>
         </state>
       </provider>
