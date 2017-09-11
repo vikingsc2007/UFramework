@@ -2,30 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="907ed1e4-4405-4b9c-aa37-c94d5ae18db3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/IO/FileMgr.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/IO/FileMgr.cs.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/IO/FilePath.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/IO/FilePath.cs.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/IO/PathHelper.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/IO/PathHelper.cs.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPool.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPoolItem.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ListPool.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ObjectPool.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/RefCounter/DisposeableObject.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/RefCounter/DisposeableObject.cs.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/RefCounter/RefCount.cs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Editor.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/UIPoolStrategy.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/UIPoolStrategy.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/ListPool.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/ListPool.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/ObjectPool.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/ObjectPool.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/RefCounter/RefCounter.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/RefCounter/RefCounter.cs.meta" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPool.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPool.cs.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPoolMgr.cs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPool.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPool.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolGroup.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolGroup.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolMgr.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolMgr.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/DefaultPoolStrategy.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/DefaultPoolStrategy.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/IGameObjectPoolStrategy.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/IGameObjectPoolStrategy.cs.meta" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.UFramework/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.UFramework/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ListPool.cs" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ListPool.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ObjectPool.cs" afterPath="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ObjectPool.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,156 +34,29 @@
       <file leaf-file-name="ObjectPool.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ObjectPool.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="270">
+              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding>
-                <marker date="1505117163000" expanded="false" signature="6:87" ph="..." />
-                <marker date="1505117163000" expanded="true" signature="127:3222" ph="{...}" />
-                <marker date="1505117163000" expanded="true" signature="222:3220" ph="{...}" />
-                <marker date="1505117163000" expanded="true" signature="403:526" ph="{...}" />
-                <marker date="1505117163000" expanded="true" signature="429:516" ph="{...}" />
-                <marker date="1505117163000" expanded="true" signature="673:831" ph="/// 初始化对象池 ... " />
-                <marker date="1505117163000" expanded="true" signature="890:1205" ph="{...}" />
-                <marker date="1505117163000" expanded="true" signature="1038:1195" ph="{...}" />
-                <marker date="1505117163000" expanded="true" signature="1110:1181" ph="{...}" />
-                <marker date="1505117163000" expanded="true" signature="1500:1853" ph="{...}" />
-                <marker date="1505117163000" expanded="true" signature="1561:1843" ph="{...}" />
-                <marker date="1505117163000" expanded="true" signature="1645:1829" ph="{...}" />
-                <marker date="1505117163000" expanded="true" signature="1728:1811" ph="{...}" />
-                <marker date="1505117163000" expanded="true" signature="2018:2111" ph="/// 从池中获取对象没有则新建 ... " />
-                <marker date="1505117163000" expanded="true" signature="2135:2500" ph="{...}" />
-                <marker date="1505117163000" expanded="true" signature="2220:2315" ph="{...}" />
-                <marker date="1505117163000" expanded="true" signature="2332:2431" ph="{...}" />
-                <marker date="1505117163000" expanded="true" signature="2527:2669" ph="/// 丢弃一个对象进池中，池满则不进 ... " />
-                <marker date="1505117163000" expanded="true" signature="2702:3067" ph="{...}" />
-                <marker date="1505117163000" expanded="true" signature="2904:3004" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameObjectPoolMgr.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolMgr.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-              <folding>
-                <marker date="1505104479000" expanded="false" signature="6:107" ph="..." />
-                <marker date="1505104479000" expanded="true" signature="141:1809" ph="{...}" />
-                <marker date="1505104479000" expanded="true" signature="263:1807" ph="{...}" />
-                <marker date="1505104479000" expanded="true" signature="358:436" ph="{...}" />
-                <marker date="1505104479000" expanded="true" signature="529:661" ph="{...}" />
-                <marker date="1505104479000" expanded="true" signature="809:997" ph="{...}" />
-                <marker date="1505104479000" expanded="true" signature="1091:1179" ph="{...}" />
-                <marker date="1505104479000" expanded="true" signature="1247:1323" ph="{...}" />
-                <marker date="1505104479000" expanded="true" signature="1377:1446" ph="{...}" />
-                <marker date="1505104479000" expanded="true" signature="1499:1566" ph="{...}" />
-                <marker date="1505104479000" expanded="true" signature="1628:1692" ph="{...}" />
-                <marker date="1505104479000" expanded="true" signature="1737:1801" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ISingleton.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/ISingleton.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding>
-                <marker date="1505097853000" expanded="true" signature="37:113" ph="{...}" />
-                <marker date="1505097853000" expanded="true" signature="71:111" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingletonMono.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/SingletonMono.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-              <folding>
-                <marker date="1505104384000" expanded="false" signature="6:50" ph="..." />
-                <marker date="1505104384000" expanded="true" signature="89:2256" ph="{...}" />
-                <marker date="1505104384000" expanded="true" signature="138:2254" ph="{...}" />
-                <marker date="1505104384000" expanded="true" signature="247:364" ph="{...}" />
-                <marker date="1505104384000" expanded="true" signature="450:1734" ph="{...}" />
-                <marker date="1505104384000" expanded="true" signature="498:1650" ph="{...}" />
-                <marker date="1505104384000" expanded="true" signature="613:1603" ph="{...}" />
-                <marker date="1505104384000" expanded="true" signature="836:1253" ph="{...}" />
-                <marker date="1505104384000" expanded="true" signature="1011:1101" ph="{...}" />
-                <marker date="1505104384000" expanded="true" signature="1296:1540" ph="{...}" />
-                <marker date="1505104384000" expanded="true" signature="1667:1724" ph="{...}" />
-                <marker date="1505104384000" expanded="true" signature="1848:2248" ph="{...}" />
-                <marker date="1505104384000" expanded="true" signature="1980:2195" ph="{...}" />
-                <marker date="1505104384000" expanded="true" signature="2101:2181" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingletonMonoT.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/SingletonMonoT.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="39" />
-              <folding>
-                <marker date="1505103970000" expanded="true" signature="37:846" ph="{...}" />
-                <marker date="1505103970000" expanded="true" signature="71:92" ph="{...}" />
-                <marker date="1505103970000" expanded="true" signature="197:844" ph="{...}" />
-                <marker date="1505103970000" expanded="true" signature="340:761" ph="{...}" />
-                <marker date="1505103970000" expanded="true" signature="366:751" ph="{...}" />
-                <marker date="1505103970000" expanded="true" signature="420:701" ph="{...}" />
-                <marker date="1505103970000" expanded="true" signature="542:661" ph="{...}" />
-                <marker date="1505103970000" expanded="true" signature="804:837" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingletonMonoTAttribute.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/SingletonMonoTAttribute.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <marker date="1505097940000" expanded="true" signature="52:440" ph="{...}" />
-                <marker date="1505097940000" expanded="true" signature="164:438" ph="{...}" />
-                <marker date="1505097940000" expanded="true" signature="270:333" ph="{...}" />
-                <marker date="1505097940000" expanded="true" signature="369:432" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingletonT.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/SingletonT.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="39" />
-              <folding>
-                <marker date="1505103963000" expanded="true" signature="37:933" ph="{...}" />
-                <marker date="1505103963000" expanded="true" signature="114:931" ph="{...}" />
-                <marker date="1505103963000" expanded="true" signature="245:701" ph="{...}" />
-                <marker date="1505103963000" expanded="true" signature="271:691" ph="{...}" />
-                <marker date="1505103963000" expanded="true" signature="324:642" ph="{...}" />
-                <marker date="1505103963000" expanded="true" signature="446:602" ph="{...}" />
-                <marker date="1505103963000" expanded="true" signature="739:862" ph="{...}" />
-                <marker date="1505103963000" expanded="true" signature="905:925" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IPoolItem.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPoolItem.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding>
-                <marker date="1505117180000" expanded="true" signature="43:169" ph="{...}" />
-                <marker date="1505117180000" expanded="true" signature="76:167" ph="{...}" />
+                <marker date="1505120439000" expanded="false" signature="6:181" ph="..." />
+                <marker date="1505120439000" expanded="true" signature="221:3187" ph="{...}" />
+                <marker date="1505120439000" expanded="true" signature="316:3185" ph="{...}" />
+                <marker date="1505120439000" expanded="true" signature="497:620" ph="{...}" />
+                <marker date="1505120439000" expanded="true" signature="523:610" ph="{...}" />
+                <marker date="1505120439000" expanded="true" signature="767:925" ph="/// 初始化对象池 ... " />
+                <marker date="1505120439000" expanded="true" signature="984:1299" ph="{...}" />
+                <marker date="1505120439000" expanded="true" signature="1132:1289" ph="{...}" />
+                <marker date="1505120439000" expanded="true" signature="1204:1275" ph="{...}" />
+                <marker date="1505120439000" expanded="true" signature="1594:1947" ph="{...}" />
+                <marker date="1505120439000" expanded="true" signature="1655:1937" ph="{...}" />
+                <marker date="1505120439000" expanded="true" signature="1739:1923" ph="{...}" />
+                <marker date="1505120439000" expanded="true" signature="1822:1905" ph="{...}" />
+                <marker date="1505120439000" expanded="true" signature="2112:2205" ph="/// 从池中获取对象没有则新建 ... " />
+                <marker date="1505120439000" expanded="true" signature="2229:2594" ph="{...}" />
+                <marker date="1505120439000" expanded="true" signature="2314:2409" ph="{...}" />
+                <marker date="1505120439000" expanded="true" signature="2426:2525" ph="{...}" />
+                <marker date="1505120439000" expanded="true" signature="2621:2763" ph="/// 丢弃一个对象进池中，池满则不进 ... " />
+                <marker date="1505120439000" expanded="true" signature="2796:3161" ph="{...}" />
+                <marker date="1505120439000" expanded="true" signature="2998:3098" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -198,11 +65,77 @@
       <file leaf-file-name="IPool.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPool.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="43" />
+            <state relative-caret-position="75">
+              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding>
-                <marker date="1505117177000" expanded="true" signature="43:114" ph="{...}" />
-                <marker date="1505117177000" expanded="true" signature="72:112" ph="{...}" />
+                <marker date="1505120452000" expanded="true" signature="43:114" ph="{...}" />
+                <marker date="1505120452000" expanded="true" signature="72:112" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameObjectPoolMgr.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPoolMgr.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding>
+                <marker date="1505122456000" expanded="false" signature="6:120" ph="..." />
+                <marker date="1505122456000" expanded="true" signature="160:2296" ph="{...}" />
+                <marker date="1505122456000" expanded="true" signature="232:2294" ph="{...}" />
+                <marker date="1505122456000" expanded="true" signature="352:437" ph="{...}" />
+                <marker date="1505122456000" expanded="true" signature="498:565" ph="{...}" />
+                <marker date="1505122456000" expanded="true" signature="658:1003" ph="{...}" />
+                <marker date="1505122456000" expanded="true" signature="716:834" ph="{...}" />
+                <marker date="1505122456000" expanded="true" signature="1069:1374" ph="{...}" />
+                <marker date="1505122456000" expanded="true" signature="1176:1364" ph="{...}" />
+                <marker date="1505122456000" expanded="true" signature="1426:1676" ph="{...}" />
+                <marker date="1505122456000" expanded="true" signature="1479:1636" ph="{...}" />
+                <marker date="1505122456000" expanded="true" signature="1725:1934" ph="{...}" />
+                <marker date="1505122456000" expanded="true" signature="1834:1891" ph="{...}" />
+                <marker date="1505122456000" expanded="true" signature="1993:2193" ph="{...}" />
+                <marker date="1505122456000" expanded="true" signature="2102:2154" ph="{...}" />
+                <marker date="1505122456000" expanded="true" signature="2235:2288" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameObjectPool.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPool.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="101" column="8" lean-forward="true" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+              <folding>
+                <marker date="1505122168000" expanded="false" signature="6:126" ph="..." />
+                <marker date="1505122168000" expanded="true" signature="166:4716" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="206:4699" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="321:403" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="893:1016" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="919:1006" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="1163:1321" ph="/// 初始化对象池 ... " />
+                <marker date="1505122168000" expanded="true" signature="1430:2190" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="2010:2180" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="2082:2166" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="2485:2838" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="2546:2828" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="2630:2814" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="2713:2796" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="3003:3096" ph="/// 从池中获取对象没有则新建 ... " />
+                <marker date="1505122168000" expanded="true" signature="3129:3231" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="3258:3400" ph="/// 丢弃一个对象进池中，池满则不进 ... " />
+                <marker date="1505122168000" expanded="true" signature="3442:3664" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="3565:3629" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="3705:3960" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="3745:3855" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="3889:3950" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="3998:4153" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="4040:4143" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="4188:4423" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="4252:4413" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="4308:4399" ph="{...}" />
+                <marker date="1505122168000" expanded="true" signature="4472:4693" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -211,14 +144,15 @@
       <file leaf-file-name="ListPool.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ListPool.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="38" />
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <marker date="1505117158000" expanded="true" signature="72:593" ph="{...}" />
-                <marker date="1505117158000" expanded="true" signature="109:591" ph="{...}" />
-                <marker date="1505117158000" expanded="true" signature="223:313" ph="{...}" />
-                <marker date="1505117158000" expanded="true" signature="360:492" ph="{...}" />
-                <marker date="1505117158000" expanded="true" signature="523:585" ph="{...}" />
+                <marker date="1505120608000" expanded="true" signature="6:74" ph="..." />
+                <marker date="1505120608000" expanded="true" signature="114:663" ph="{...}" />
+                <marker date="1505120608000" expanded="true" signature="151:661" ph="{...}" />
+                <marker date="1505120608000" expanded="true" signature="265:355" ph="{...}" />
+                <marker date="1505120608000" expanded="true" signature="402:534" ph="{...}" />
+                <marker date="1505120608000" expanded="true" signature="565:627" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -249,11 +183,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Debuger/DebugLogger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/RefCounter/DisposeableObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/RefCounter/RefCount.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/DefaultPoolStrategy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/IGameObjectPoolStrategy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPoolMgr.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Helper/GameObjectHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3E03DFF4-28DD-416C-846C-CA07D7A10521/8f/4edfc9a3/GameObject.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/SingletonMonoTAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPoolItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/SingletonT.cs" root0="FORCE_HIGHLIGHTING" />
@@ -262,9 +196,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/SingletonMono.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BD38221-5A9A-4A26-B2E5-C43C475B6BE8/1b/abed6b69/IDisposable.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BD38221-5A9A-4A26-B2E5-C43C475B6BE8/2a/a671f758/StackFrame.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/ISingleton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolMgr.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ListPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3E03DFF4-28DD-416C-846C-CA07D7A10521/74/ac85300a/AssetBundle.cs" root0="SKIP_INSPECTION" />
@@ -273,6 +205,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3E03DFF4-28DD-416C-846C-CA07D7A10521/bf/403ceca7/Application.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3E03DFF4-28DD-416C-846C-CA07D7A10521/8f/e508474d/ResourceRequest.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3E03DFF4-28DD-416C-846C-CA07D7A10521/d7/4d76e2f9/AssetBundleRequest.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BD38221-5A9A-4A26-B2E5-C43C475B6BE8/30/fb817eaf/List`1.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/IO/PathHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Debuger/Log.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UFramework/Engine/IO/FileMgr.cs" root0="FORCE_HIGHLIGHTING" />
@@ -282,16 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/SingletonMonoT.cs" />
-        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/IGameObjectPoolStrategy.cs" />
-        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPool.cs" />
-        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolGroup.cs" />
-        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/SingletonMono.cs" />
-        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolMgr.cs" />
-        <option value="$PROJECT_DIR$/Assets/UFramework/Framework/ResSystem/Core/ResLoader/IResLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/UFramework/Framework/ResSystem/Core/EnumeratorTask/IEnumeratorTask.cs" />
-        <option value="$PROJECT_DIR$/Assets/UFramework/Framework/ResSystem/Core/EnumeratorTask/IEnumeratorTaskMgr.cs" />
-        <option value="$PROJECT_DIR$/Assets/UFramework/Framework/ResSystem/Core/Res/IRes.cs" />
         <option value="$PROJECT_DIR$/Assets/UFramework/Framework/ResSystem/ResFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/UFramework/Framework/ResSystem/Core/Res/Enums.cs" />
         <option value="$PROJECT_DIR$/Assets/UFramework/Framework/ResSystem/Core/Res/BaseRes.cs" />
@@ -329,10 +252,20 @@
         <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/IPoolItem.cs" />
         <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/ListPool.cs" />
         <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/ObjectPool.cs" />
-        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ListPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPoolItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPoolItemCreater.cs" />
+        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPoolItemCreatStrategys.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BD38221-5A9A-4A26-B2E5-C43C475B6BE8/30/fb817eaf/List`1.cs" />
+        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/PoolItemCreatStrategys/ListPoolItemCreatStrategy.cs" />
+        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/PoolItemAdapter/PoolItemAdapter.cs" />
+        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/PoolItemCreatStrategys/ObjectPoolItemCreatStrategy.cs" />
+        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPoolItemCreatStrategy.cs" />
         <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ObjectPool.cs" />
         <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPool.cs" />
-        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPoolItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ListPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPoolManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPoolMgr.cs" />
       </list>
     </option>
   </component>
@@ -372,7 +305,7 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework (3 projects)" />
+              <option name="myItemId" value="UFramework (2 projects)" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -402,7 +335,7 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework (3 projects)" />
+              <option name="myItemId" value="UFramework (2 projects)" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -416,321 +349,7 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp-Editor" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp-Editor" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Framework" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Singleton" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RefCounter" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pool" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pool" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pools" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pool" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interfaces" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pool" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GameObjectPoolStrategys" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IO" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engine" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Helper" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework (3 projects)" />
+              <option name="myItemId" value="UFramework (2 projects)" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -756,7 +375,7 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UFramework (3 projects)" />
+              <option name="myItemId" value="UFramework (2 projects)" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -865,7 +484,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505096618698</updated>
-      <workItem from="1505096623819" duration="14632000" />
+      <workItem from="1505096623819" duration="19901000" />
     </task>
     <task id="LOCAL-00001" summary="单例工具类&#10;对象池工具类&#10;引用计数工具类">
       <created>1505099028767</created>
@@ -881,11 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505104664228</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="GameObject对象池&#10;GameObject对象池组&#10;GameObject对象池组管理器&#10;调试日志工具">
+      <created>1505117209938</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1505117209938</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14632000" />
+    <option name="totallyTimeSpent" value="19901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -898,6 +524,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-1156" width="1200" height="1855" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -907,7 +534,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3374929" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253886" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253886" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295519" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -947,99 +574,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/IGameObjectPoolStrategy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding>
-            <marker date="1505104000000" expanded="true" signature="76:277" ph="{...}" />
-            <marker date="1505104000000" expanded="true" signature="123:275" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/UIPoolStrategy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Framework/ResSystem/Core/Res/IRes.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Framework/ResSystem/Core/ResLoader/LoaderStrategys/DefaultLoaderStrategy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/IO/PathHelper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <marker date="1505111243000" expanded="true" signature="48:1051" ph="{...}" />
-            <marker date="1505111243000" expanded="true" signature="78:1049" ph="{...}" />
-            <marker date="1505111243000" expanded="true" signature="148:441" ph="{...}" />
-            <marker date="1505111243000" expanded="true" signature="188:245" ph="{...}" />
-            <marker date="1505111243000" expanded="true" signature="326:406" ph="{...}" />
-            <marker date="1505111243000" expanded="true" signature="507:860" ph="{...}" />
-            <marker date="1505111243000" expanded="true" signature="606:663" ph="{...}" />
-            <marker date="1505111243000" expanded="true" signature="744:825" ph="{...}" />
-            <marker date="1505111243000" expanded="true" signature="921:1043" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Editor/EditorFileUtils.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-582">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Editor/EditorUtils.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1227">
-          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3E03DFF4-28DD-416C-846C-CA07D7A10521/8f/e508474d/ResourceRequest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3E03DFF4-28DD-416C-846C-CA07D7A10521/d7/4d76e2f9/AssetBundleRequest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <marker date="1505112608000" expanded="true" signature="0:290" ph="/* Decompiled with JetBrains decompiler ... */" />
-            <marker date="1505112608000" expanded="false" signature="298:397" ph="..." />
-            <marker date="1505112608000" expanded="true" signature="420:1048" ph="{...}" />
-            <marker date="1505112608000" expanded="true" signature="425:523" ph="///   &lt;para&gt;Asynchronous load request from an AssetBundle.&lt;/para&gt; ... " />
-            <marker date="1505112608000" expanded="true" signature="646:1046" ph="{...}" />
-            <marker date="1505112608000" expanded="true" signature="655:749" ph="///   &lt;para&gt;Asset object being loaded (Read Only).&lt;/para&gt; ... " />
-            <marker date="1505112608000" expanded="true" signature="840:951" ph="///   &lt;para&gt;Asset objects with sub assets being loaded. (Read Only)&lt;/para&gt; ... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3E03DFF4-28DD-416C-846C-CA07D7A10521/bf/403ceca7/Application.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1389,95 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolGroup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <marker date="1505104283000" expanded="false" signature="6:139" ph="..." />
-            <marker date="1505104283000" expanded="true" signature="172:2509" ph="{...}" />
-            <marker date="1505104283000" expanded="true" signature="211:2507" ph="{...}" />
-            <marker date="1505104283000" expanded="true" signature="519:605" ph="{...}" />
-            <marker date="1505104283000" expanded="true" signature="647:715" ph="{...}" />
-            <marker date="1505104283000" expanded="true" signature="809:1184" ph="{...}" />
-            <marker date="1505104283000" expanded="true" signature="868:986" ph="{...}" />
-            <marker date="1505104283000" expanded="true" signature="1253:1502" ph="{...}" />
-            <marker date="1505104283000" expanded="true" signature="1361:1492" ph="{...}" />
-            <marker date="1505104283000" expanded="true" signature="1557:1746" ph="{...}" />
-            <marker date="1505104283000" expanded="true" signature="1611:1704" ph="{...}" />
-            <marker date="1505104283000" expanded="true" signature="1799:2074" ph="{...}" />
-            <marker date="1505104283000" expanded="true" signature="1909:2027" ph="{...}" />
-            <marker date="1505104283000" expanded="true" signature="2136:2400" ph="{...}" />
-            <marker date="1505104283000" expanded="true" signature="2246:2358" ph="{...}" />
-            <marker date="1505104283000" expanded="true" signature="2445:2501" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/DefaultPoolStrategy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <marker date="1505103921000" expanded="false" signature="6:53" ph="..." />
-            <marker date="1505103921000" expanded="true" signature="111:484" ph="{...}" />
-            <marker date="1505103921000" expanded="true" signature="208:482" ph="{...}" />
-            <marker date="1505103921000" expanded="true" signature="273:333" ph="{...}" />
-            <marker date="1505103921000" expanded="true" signature="384:405" ph="{...}" />
-            <marker date="1505103921000" expanded="true" signature="455:476" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPool.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1107">
-          <caret line="44" column="49" lean-forward="false" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="49" />
-          <folding>
-            <marker date="1505104201000" expanded="false" signature="6:139" ph="..." />
-            <marker date="1505104201000" expanded="true" signature="173:5707" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="207:5705" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="712:1835" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="756:863" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="896:948" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="1021:1104" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="1400:1541" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="1558:1625" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="1657:1825" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="1723:1811" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="1868:2084" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="1894:2074" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="1950:2016" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="2118:2703" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="2183:2693" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="2276:2679" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="2351:2661" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="2496:2639" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="2778:3704" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="2839:2946" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="2976:3316" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="3026:3156" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="3199:3277" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="3355:3407" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="3449:3501" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="3580:3693" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="3742:4270" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="3848:4098" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="3900:4036" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="4115:4188" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="4313:5335" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="4350:4402" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="4441:4525" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="4562:4984" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="4630:4970" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="4669:4881" ph="/* PoolObjectComponent comItem = t.GetComponent&lt;PoolObjectComponent&gt;(); ... */" />
-            <marker date="1505104201000" expanded="true" signature="5121:5325" ph="/* PoolObjectComponent item = t.GetComponent&lt;PoolObjectComponent&gt;(); ... */" />
-            <marker date="1505104201000" expanded="true" signature="5385:5699" ph="{...}" />
-            <marker date="1505104201000" expanded="true" signature="5429:5486" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/ISingleton.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1485,46 +930,6 @@
           <folding>
             <marker date="1505097853000" expanded="true" signature="37:113" ph="{...}" />
             <marker date="1505097853000" expanded="true" signature="71:111" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/SingletonMono.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding>
-            <marker date="1505104384000" expanded="false" signature="6:50" ph="..." />
-            <marker date="1505104384000" expanded="true" signature="89:2256" ph="{...}" />
-            <marker date="1505104384000" expanded="true" signature="138:2254" ph="{...}" />
-            <marker date="1505104384000" expanded="true" signature="247:364" ph="{...}" />
-            <marker date="1505104384000" expanded="true" signature="450:1734" ph="{...}" />
-            <marker date="1505104384000" expanded="true" signature="498:1650" ph="{...}" />
-            <marker date="1505104384000" expanded="true" signature="613:1603" ph="{...}" />
-            <marker date="1505104384000" expanded="true" signature="836:1253" ph="{...}" />
-            <marker date="1505104384000" expanded="true" signature="1011:1101" ph="{...}" />
-            <marker date="1505104384000" expanded="true" signature="1296:1540" ph="{...}" />
-            <marker date="1505104384000" expanded="true" signature="1667:1724" ph="{...}" />
-            <marker date="1505104384000" expanded="true" signature="1848:2248" ph="{...}" />
-            <marker date="1505104384000" expanded="true" signature="1980:2195" ph="{...}" />
-            <marker date="1505104384000" expanded="true" signature="2101:2181" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/SingletonMonoT.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <marker date="1505103970000" expanded="true" signature="37:846" ph="{...}" />
-            <marker date="1505103970000" expanded="true" signature="71:92" ph="{...}" />
-            <marker date="1505103970000" expanded="true" signature="197:844" ph="{...}" />
-            <marker date="1505103970000" expanded="true" signature="340:761" ph="{...}" />
-            <marker date="1505103970000" expanded="true" signature="366:751" ph="{...}" />
-            <marker date="1505103970000" expanded="true" signature="420:701" ph="{...}" />
-            <marker date="1505103970000" expanded="true" signature="542:661" ph="{...}" />
-            <marker date="1505103970000" expanded="true" signature="804:837" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1538,6 +943,48 @@
             <marker date="1505097940000" expanded="true" signature="164:438" ph="{...}" />
             <marker date="1505097940000" expanded="true" signature="270:333" ph="{...}" />
             <marker date="1505097940000" expanded="true" signature="369:432" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BD38221-5A9A-4A26-B2E5-C43C475B6BE8/30/fb817eaf/List`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2158">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <marker date="1505118032000" expanded="true" signature="0:319" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1505118032000" expanded="false" signature="327:445" ph="..." />
+            <marker date="1505118032000" expanded="true" signature="483:7538" ph="{...}" />
+            <marker date="1505118032000" expanded="true" signature="745:7536" ph="{...}" />
+            <marker date="1505118032000" expanded="true" signature="6190:6932" ph="{...}" />
+            <marker date="1505118032000" expanded="true" signature="7024:7532" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/PoolItemCreatStrategys/ListPoolItemCreatStrategy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="126" lean-forward="false" selection-start-line="6" selection-start-column="97" selection-end-line="6" selection-end-column="126" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3E03DFF4-28DD-416C-846C-CA07D7A10521/8f/4edfc9a3/GameObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPoolItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1505117180000" expanded="true" signature="43:169" ph="{...}" />
+            <marker date="1505117180000" expanded="true" signature="76:167" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1559,88 +1006,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolMgr.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/PoolItemCreatStrategys/ObjectPoolItemCreatStrategy.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="90">
+          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/PoolItemAdapter/PoolItemAdapter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPoolItemCreatStrategy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ObjectPool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
-            <marker date="1505104479000" expanded="false" signature="6:107" ph="..." />
-            <marker date="1505104479000" expanded="true" signature="141:1809" ph="{...}" />
-            <marker date="1505104479000" expanded="true" signature="263:1807" ph="{...}" />
-            <marker date="1505104479000" expanded="true" signature="358:436" ph="{...}" />
-            <marker date="1505104479000" expanded="true" signature="529:661" ph="{...}" />
-            <marker date="1505104479000" expanded="true" signature="809:997" ph="{...}" />
-            <marker date="1505104479000" expanded="true" signature="1091:1179" ph="{...}" />
-            <marker date="1505104479000" expanded="true" signature="1247:1323" ph="{...}" />
-            <marker date="1505104479000" expanded="true" signature="1377:1446" ph="{...}" />
-            <marker date="1505104479000" expanded="true" signature="1499:1566" ph="{...}" />
-            <marker date="1505104479000" expanded="true" signature="1628:1692" ph="{...}" />
-            <marker date="1505104479000" expanded="true" signature="1737:1801" ph="{...}" />
+            <marker date="1505120439000" expanded="false" signature="6:181" ph="..." />
+            <marker date="1505120439000" expanded="true" signature="221:3187" ph="{...}" />
+            <marker date="1505120439000" expanded="true" signature="316:3185" ph="{...}" />
+            <marker date="1505120439000" expanded="true" signature="497:620" ph="{...}" />
+            <marker date="1505120439000" expanded="true" signature="523:610" ph="{...}" />
+            <marker date="1505120439000" expanded="true" signature="767:925" ph="/// 初始化对象池 ... " />
+            <marker date="1505120439000" expanded="true" signature="984:1299" ph="{...}" />
+            <marker date="1505120439000" expanded="true" signature="1132:1289" ph="{...}" />
+            <marker date="1505120439000" expanded="true" signature="1204:1275" ph="{...}" />
+            <marker date="1505120439000" expanded="true" signature="1594:1947" ph="{...}" />
+            <marker date="1505120439000" expanded="true" signature="1655:1937" ph="{...}" />
+            <marker date="1505120439000" expanded="true" signature="1739:1923" ph="{...}" />
+            <marker date="1505120439000" expanded="true" signature="1822:1905" ph="{...}" />
+            <marker date="1505120439000" expanded="true" signature="2112:2205" ph="/// 从池中获取对象没有则新建 ... " />
+            <marker date="1505120439000" expanded="true" signature="2229:2594" ph="{...}" />
+            <marker date="1505120439000" expanded="true" signature="2314:2409" ph="{...}" />
+            <marker date="1505120439000" expanded="true" signature="2426:2525" ph="{...}" />
+            <marker date="1505120439000" expanded="true" signature="2621:2763" ph="/// 丢弃一个对象进池中，池满则不进 ... " />
+            <marker date="1505120439000" expanded="true" signature="2796:3161" ph="{...}" />
+            <marker date="1505120439000" expanded="true" signature="2998:3098" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ListPool.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="38" />
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <marker date="1505117158000" expanded="true" signature="72:593" ph="{...}" />
-            <marker date="1505117158000" expanded="true" signature="109:591" ph="{...}" />
-            <marker date="1505117158000" expanded="true" signature="223:313" ph="{...}" />
-            <marker date="1505117158000" expanded="true" signature="360:492" ph="{...}" />
-            <marker date="1505117158000" expanded="true" signature="523:585" ph="{...}" />
+            <marker date="1505120608000" expanded="true" signature="6:74" ph="..." />
+            <marker date="1505120608000" expanded="true" signature="114:663" ph="{...}" />
+            <marker date="1505120608000" expanded="true" signature="151:661" ph="{...}" />
+            <marker date="1505120608000" expanded="true" signature="265:355" ph="{...}" />
+            <marker date="1505120608000" expanded="true" signature="402:534" ph="{...}" />
+            <marker date="1505120608000" expanded="true" signature="565:627" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/ObjectPool.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPool.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="703">
+          <caret line="187" column="42" lean-forward="false" selection-start-line="187" selection-start-column="19" selection-end-line="187" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolMgr.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolGroup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="83" column="9" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="83" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/SingletonMono.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="42" column="40" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="40" />
           <folding>
-            <marker date="1505117163000" expanded="false" signature="6:87" ph="..." />
-            <marker date="1505117163000" expanded="true" signature="127:3222" ph="{...}" />
-            <marker date="1505117163000" expanded="true" signature="222:3220" ph="{...}" />
-            <marker date="1505117163000" expanded="true" signature="403:526" ph="{...}" />
-            <marker date="1505117163000" expanded="true" signature="429:516" ph="{...}" />
-            <marker date="1505117163000" expanded="true" signature="673:831" ph="/// 初始化对象池 ... " />
-            <marker date="1505117163000" expanded="true" signature="890:1205" ph="{...}" />
-            <marker date="1505117163000" expanded="true" signature="1038:1195" ph="{...}" />
-            <marker date="1505117163000" expanded="true" signature="1110:1181" ph="{...}" />
-            <marker date="1505117163000" expanded="true" signature="1500:1853" ph="{...}" />
-            <marker date="1505117163000" expanded="true" signature="1561:1843" ph="{...}" />
-            <marker date="1505117163000" expanded="true" signature="1645:1829" ph="{...}" />
-            <marker date="1505117163000" expanded="true" signature="1728:1811" ph="{...}" />
-            <marker date="1505117163000" expanded="true" signature="2018:2111" ph="/// 从池中获取对象没有则新建 ... " />
-            <marker date="1505117163000" expanded="true" signature="2135:2500" ph="{...}" />
-            <marker date="1505117163000" expanded="true" signature="2220:2315" ph="{...}" />
-            <marker date="1505117163000" expanded="true" signature="2332:2431" ph="{...}" />
-            <marker date="1505117163000" expanded="true" signature="2527:2669" ph="/// 丢弃一个对象进池中，池满则不进 ... " />
-            <marker date="1505117163000" expanded="true" signature="2702:3067" ph="{...}" />
-            <marker date="1505117163000" expanded="true" signature="2904:3004" ph="{...}" />
+            <marker date="1505104384000" expanded="false" signature="6:50" ph="..." />
+            <marker date="1505104384000" expanded="true" signature="89:2256" ph="{...}" />
+            <marker date="1505104384000" expanded="true" signature="138:2254" ph="{...}" />
+            <marker date="1505104384000" expanded="true" signature="247:364" ph="{...}" />
+            <marker date="1505104384000" expanded="true" signature="450:1734" ph="{...}" />
+            <marker date="1505104384000" expanded="true" signature="498:1650" ph="{...}" />
+            <marker date="1505104384000" expanded="true" signature="613:1603" ph="{...}" />
+            <marker date="1505104384000" expanded="true" signature="836:1253" ph="{...}" />
+            <marker date="1505104384000" expanded="true" signature="1011:1101" ph="{...}" />
+            <marker date="1505104384000" expanded="true" signature="1296:1540" ph="{...}" />
+            <marker date="1505104384000" expanded="true" signature="1667:1724" ph="{...}" />
+            <marker date="1505104384000" expanded="true" signature="1848:2248" ph="{...}" />
+            <marker date="1505104384000" expanded="true" signature="1980:2195" ph="{...}" />
+            <marker date="1505104384000" expanded="true" signature="2101:2181" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Singleton/SingletonMonoT.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding>
+            <marker date="1505103970000" expanded="true" signature="37:846" ph="{...}" />
+            <marker date="1505103970000" expanded="true" signature="71:92" ph="{...}" />
+            <marker date="1505103970000" expanded="true" signature="197:844" ph="{...}" />
+            <marker date="1505103970000" expanded="true" signature="340:761" ph="{...}" />
+            <marker date="1505103970000" expanded="true" signature="366:751" ph="{...}" />
+            <marker date="1505103970000" expanded="true" signature="420:701" ph="{...}" />
+            <marker date="1505103970000" expanded="true" signature="542:661" ph="{...}" />
+            <marker date="1505103970000" expanded="true" signature="804:837" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPool.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="43" />
+        <state relative-caret-position="75">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding>
-            <marker date="1505117177000" expanded="true" signature="43:114" ph="{...}" />
-            <marker date="1505117177000" expanded="true" signature="72:112" ph="{...}" />
+            <marker date="1505120452000" expanded="true" signature="43:114" ph="{...}" />
+            <marker date="1505120452000" expanded="true" signature="72:112" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Interfaces/IPoolItem.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPoolMgr.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
-            <marker date="1505117180000" expanded="true" signature="43:169" ph="{...}" />
-            <marker date="1505117180000" expanded="true" signature="76:167" ph="{...}" />
+            <marker date="1505122456000" expanded="false" signature="6:120" ph="..." />
+            <marker date="1505122456000" expanded="true" signature="160:2296" ph="{...}" />
+            <marker date="1505122456000" expanded="true" signature="232:2294" ph="{...}" />
+            <marker date="1505122456000" expanded="true" signature="352:437" ph="{...}" />
+            <marker date="1505122456000" expanded="true" signature="498:565" ph="{...}" />
+            <marker date="1505122456000" expanded="true" signature="658:1003" ph="{...}" />
+            <marker date="1505122456000" expanded="true" signature="716:834" ph="{...}" />
+            <marker date="1505122456000" expanded="true" signature="1069:1374" ph="{...}" />
+            <marker date="1505122456000" expanded="true" signature="1176:1364" ph="{...}" />
+            <marker date="1505122456000" expanded="true" signature="1426:1676" ph="{...}" />
+            <marker date="1505122456000" expanded="true" signature="1479:1636" ph="{...}" />
+            <marker date="1505122456000" expanded="true" signature="1725:1934" ph="{...}" />
+            <marker date="1505122456000" expanded="true" signature="1834:1891" ph="{...}" />
+            <marker date="1505122456000" expanded="true" signature="1993:2193" ph="{...}" />
+            <marker date="1505122456000" expanded="true" signature="2102:2154" ph="{...}" />
+            <marker date="1505122456000" expanded="true" signature="2235:2288" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/DefaultPoolStrategy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/GameObjectPoolStrategys/IGameObjectPoolStrategy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UFramework/Engine/Pool/Pools/GameObjectPool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="101" column="8" lean-forward="true" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+          <folding>
+            <marker date="1505122168000" expanded="false" signature="6:126" ph="..." />
+            <marker date="1505122168000" expanded="true" signature="166:4716" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="206:4699" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="321:403" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="893:1016" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="919:1006" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="1163:1321" ph="/// 初始化对象池 ... " />
+            <marker date="1505122168000" expanded="true" signature="1430:2190" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="2010:2180" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="2082:2166" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="2485:2838" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="2546:2828" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="2630:2814" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="2713:2796" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="3003:3096" ph="/// 从池中获取对象没有则新建 ... " />
+            <marker date="1505122168000" expanded="true" signature="3129:3231" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="3258:3400" ph="/// 丢弃一个对象进池中，池满则不进 ... " />
+            <marker date="1505122168000" expanded="true" signature="3442:3664" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="3565:3629" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="3705:3960" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="3745:3855" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="3889:3950" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="3998:4153" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="4040:4143" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="4188:4423" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="4252:4413" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="4308:4399" ph="{...}" />
+            <marker date="1505122168000" expanded="true" signature="4472:4693" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using UFramework.Engine.Pool.Interfaces;
+
 namespace UFramework.Engine.Pool.Pools
 {
     public class ListPool<T>:IPool
@@ -23,5 +25,9 @@ namespace UFramework.Engine.Pool.Pools
         {
             get { return _Cached.Count; }
         }
+
+        
+        
+        
     }
 }
