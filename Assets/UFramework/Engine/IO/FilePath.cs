@@ -7,8 +7,9 @@ namespace UFramework.Engine.IO
     {
         private static string           m_PersistentDataPath;
         private static string           m_StreamingAssetsPath;
-        private static string           m_PersistentDataPath4Res;
-        private static string           m_PersistentDataPath4Photo;
+        
+        
+        private static string           m_PersistentDataPath_Res;
         private static string           m_PersistentDownloadCachePath;
         // 外部目录  
         public static string persistentDataPath
@@ -40,7 +41,6 @@ namespace UFramework.Engine.IO
 #elif UNITY_STANDALONE_OSX && !UNITY_EDITOR
                     m_StreamingAssetsPath = Application.streamingAssetsPath + "/";
 #else
-                    //m_StreamingAssetsPath = GetParentDir(Application.dataPath, 1) + "/BuildRes/standalone/";
                     m_StreamingAssetsPath = Application.streamingAssetsPath + "/";
                     m_StreamingAssetsPath = m_StreamingAssetsPath.Replace("\\", "/");
 #endif
@@ -87,50 +87,31 @@ namespace UFramework.Engine.IO
         }
 
         // 外部资源目录
-        public static string persistentDataPath4Res
+        public static string persistentDataPath_Res
         {
             get
             {
-                if (null == m_PersistentDataPath4Res)
+                if (null == m_PersistentDataPath_Res)
                 {
-                    m_PersistentDataPath4Res = persistentDataPath + "Res/";
+                    m_PersistentDataPath_Res = persistentDataPath + "Res/";
 
-                    if (!Directory.Exists(m_PersistentDataPath4Res))
+                    if (!Directory.Exists(m_PersistentDataPath_Res))
                     {
-                        Directory.CreateDirectory(m_PersistentDataPath4Res);
+                        Directory.CreateDirectory(m_PersistentDataPath_Res);
 #if UNITY_IPHONE && !UNITY_EDITOR
-                        UnityEngine.iOS.Device.SetNoBackupFlag(m_PersistentDataPath4Res);
+                        UnityEngine.iOS.Device.SetNoBackupFlag(persistentDataPath_Res);
 #endif
                     }
                 }
 
-                return m_PersistentDataPath4Res;
-            }
-        }
-
-        // 外部头像缓存目录
-        public static string persistentDataPath4Photo
-        {
-            get
-            {
-                if (null == m_PersistentDataPath4Photo)
-                {
-                    m_PersistentDataPath4Photo = persistentDataPath + "Photos\\";
-
-                    if (!Directory.Exists(m_PersistentDataPath4Photo))
-                    {
-                        Directory.CreateDirectory(m_PersistentDataPath4Photo);
-                    }
-                }
-
-                return m_PersistentDataPath4Photo;
+                return m_PersistentDataPath_Res;
             }
         }
 
         // 资源路径，优先返回外存资源路径
         public static string GetResPathInPersistentOrStream(string relativePath)
         {
-            string resPersistentPath = string.Format("{0}{1}", FilePath.persistentDataPath4Res, relativePath);
+            string resPersistentPath = string.Format("{0}{1}", FilePath.persistentDataPath_Res, relativePath);
 
             if (File.Exists(resPersistentPath))
             {

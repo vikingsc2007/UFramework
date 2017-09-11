@@ -26,7 +26,7 @@ namespace UFramework.Engine.IO
 
         public override void OnInstanced()
         {
-            m_SearchDirList.Add(FilePath.persistentDataPath4Res);
+            m_SearchDirList.Add(FilePath.persistentDataPath_Res);
             m_StreamingAssetsPath = FilePath.streamingAssetsPath;
 #if (UNITY_ANDROID) && !UNITY_EDITOR
             if (m_ZipFile == null)
