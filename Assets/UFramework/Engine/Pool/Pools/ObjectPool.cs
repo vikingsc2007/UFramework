@@ -74,7 +74,7 @@ namespace UFramework.Engine.Pool.Pools
             if (_cached == null || _cached.Count <= 0)
             {
                 item = new T();
-                return default(T);
+                return item;
             }
             else
             {
