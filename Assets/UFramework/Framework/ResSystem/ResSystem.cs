@@ -2,7 +2,7 @@
 using UFramework.Engine.Pool.Pools;
 using UFramework.Engine.Singleton;
 using UFramework.Framework.ResSystem.Interfaces;
-
+using UFramework.Framework.ResSystem.Res;
 
 namespace UFramework.Framework.ResSystem
 {
@@ -24,18 +24,18 @@ namespace UFramework.Framework.ResSystem
 		{
 			ObjectPool<ResLoader>.Inst.Initalize(MaxLoaderCount,InitLoaderCount);
 			_loadedResource = new Dictionary<string, IRes>();
-		}
+        }
 
 
 
 
-		public ResLoader PickLoader()
+		public ResLoader GetLoader()
 		{
-			return ObjectPool<ResLoader>.Inst.Pick();
+            return ObjectPool<ResLoader>.Inst.Pick();
 		}
 		
 		
-		public bool DropLoader(ResLoader loader)
+		public bool ReleaseLoader(ResLoader loader)
 		{
 			return ObjectPool<ResLoader>.Inst.Drop(loader);
 		}
